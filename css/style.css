@@ -202,12 +202,15 @@ main {
 /* contact section styles */
 .contact {
     background: #FFF8F3;
+    
 }
 
 .contact-container {
     display: flex;
     padding: 130px 230px;
-    gap: 117px;
+    gap: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .contact h3 {
@@ -227,7 +230,7 @@ main {
 
 .message h3 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 48px;
     text-align: center;
     margin-bottom: 28px;
