@@ -198,3 +198,45 @@ main {
     line-height: 27px;
     color: white;
 }
+
+/* contact section styles */
+.contact {
+    background: #FFF8F3;
+}
+
+.contact-container {
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+
+.contact h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.message h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 28px;
+
+}
+input[type='text'],input[type='email'],textarea{
+    height:  64px;
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: 0;
+}
